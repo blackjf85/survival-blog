@@ -4,4 +4,7 @@
 </script>
 
 <Navbar />
-<slot />
+
+<main id="main" class="container py-4 mx-auto flex justify-center items-center">
+	<slot />
+</main>
